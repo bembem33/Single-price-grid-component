@@ -18,10 +18,12 @@ body {
     background-color: var(--light-gray);
     display: grid;
     place-items: center;
-    justify-content: center;
     height: 100vh;
     font-family: "Karla";
-    
+    min-height: 100vh;
+    grid-template-rows: 1fr auto;
+    gap: 2em;
+    padding: 4em 0;
 }
 
 .main-card {
@@ -143,9 +145,7 @@ span {
 @media (max-width : 650px) {
     
     .main-card {
-        max-height: 350px;
-        position: relative;
-        top: -50px;
+        
     } 
 
     .header {
