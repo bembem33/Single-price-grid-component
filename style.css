@@ -24,7 +24,7 @@ body {
     
 }
 
-.container {
+.main-card {
     display: grid;
     border-radius: 10px;
     max-width: 650px;
@@ -110,7 +110,7 @@ span {
 
 /* Bottom right section*/
 .bottom__right {
-    background-color: hsl(179, 76%, 61%);
+    background-color: hsl(180, 39%, 56%, 1);
     display: grid;
     align-items: center;
     padding: 2.3rem;
@@ -124,7 +124,7 @@ span {
     font-size: 1.5rem;
 }
 .bottom__right p {
-    color: hsl(220, 7%, 56%);
+    color: var(--light-gray);
 }
 
 /*Footer*/
@@ -142,7 +142,7 @@ span {
 
 @media (max-width : 650px) {
     
-    .container {
+    .main-card {
         max-height: 350px;
         position: relative;
         top: -50px;
@@ -177,6 +177,7 @@ span {
 
     .attribution {
         position: relative;
-        bottom: -250px;
+        bottom: -280px;
+        
     }
   }
